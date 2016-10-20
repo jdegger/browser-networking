@@ -1,0 +1,19 @@
+{
+  "name": "browser-networking",
+  "version": "0.1.0",
+  "description": "View all browser networking requests for a certain url via PhantomJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*.spec.js --reporter spec"
+  },
+  "dependencies": {
+    "phantom": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "mocha-jshint": "^2.3.1",
+    "should": "^11.1.1"
+  },
+  "author": "jdegger",
+  "license": "ISC"
+}
