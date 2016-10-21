@@ -4,6 +4,20 @@ run `npm install`
 # Test
 `npm test`
 
+# When to use this
+Please note that executing the `browserNetworking.request` function is _insanely slow_ compared to normal HTTP networking (which is slow already). This package should *only be used if speed is not an issue*.
+
+Example implementations:
+- Check wether or not a certain website includes your banner or copyright image
+- Check if certain scripts make certain calls as expected (for testing maybe, but there are better ways to achieve that)
+
+It is recommended to run the script from a queue or cronjob in seperate non-blocking calls. The process is CPU intensive. This is what happens:
+- The request function is called with an URL
+- PhantomJS is started. PhantomJS is a headless browser (no GUI).
+- We navigate to the given URL
+- We wait for the page to completely load and catch all called URLs
+- We return the result and close the workers in the background
+
 # API
 Exposes a `request` function which takes one argument: the `url` of the request. The function returns a `Promise`. The promises resolves to an `Array` of urls or rejects to an error object.
 
