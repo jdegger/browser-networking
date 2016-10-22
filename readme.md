@@ -1,8 +1,8 @@
 [![npm version](https://badge.fury.io/js/browser-networking.svg)](https://badge.fury.io/js/browser-networking) [![dependencies](https://david-dm.org/jdegger/browser-networking.svg)](https://david-dm.org/)
 
 # Install
-run `npm install`. This install one dependecy:
-- Phantom
+run `npm install`. This installs one dependecy:
+- `phantom`: https://www.npmjs.com/package/phantom
 
 # Test
 To run the tests execute `npm test`. Please install the dev dependencies first.
