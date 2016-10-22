@@ -1,6 +1,6 @@
 {
   "name": "browser-networking",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "View all browser networking requests for a certain url via PhantomJS",
   "main": "index.js",
   "scripts": {
