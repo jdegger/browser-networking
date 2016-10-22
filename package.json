@@ -1,6 +1,6 @@
 {
   "name": "browser-networking",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "View all browser networking requests for a certain url via PhantomJS",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
     "type": "git",
     "url": "https://github.com/jdegger/browser-networking"
   },
+  "keywords": ["browser", "networking", "mock", "resources", "phantom", "PhantomJS"],
   "author": "jdegger",
   "license": "MIT"
 }
