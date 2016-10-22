@@ -1,4 +1,6 @@
-[![npm version](https://badge.fury.io/js/browser-networking.svg)](https://badge.fury.io/js/browser-networking) [![dependencies](https://david-dm.org/jdegger/browser-networking.svg)](https://david-dm.org/)
+[![NPM](https://nodei.co/npm/browser-networking.png?downloads=true)](https://nodei.co/npm/browser-networking/)
+
+[![GitHub version](https://badge.fury.io/gh/jdegger%2Fbrowser-networking.svg)](https://badge.fury.io/gh/jdegger%2Fbrowser-networking) [![npm version](https://badge.fury.io/js/browser-networking.svg)](https://badge.fury.io/js/browser-networking) [![dependencies](https://david-dm.org/jdegger/browser-networking.svg)](https://david-dm.org/)
 
 # Install
 run `npm install`. This installs one dependecy:
