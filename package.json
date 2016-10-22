@@ -18,6 +18,7 @@
     "type": "git",
     "url": "https://github.com/jdegger/browser-networking"
   },
+  "keywords": ["browser", "networking", "mock", "resources", "phantom", "PhantomJS"],
   "author": "jdegger",
   "license": "MIT"
 }
